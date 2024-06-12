@@ -5,7 +5,7 @@ public class kartikeya
     {
 Scanner s=new Scanner(System.in);
 if (s.hasNextInt()) {
-    int a = scanner.nextInt();
+    int a = s.nextInt();
         if(a==10)
         {
             System.out.println("yes it is 10");

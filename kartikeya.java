@@ -10,5 +10,6 @@ if (s.hasNextInt()) {
         {
             System.out.println("yes it is 10");
         }
+}
     }
 }

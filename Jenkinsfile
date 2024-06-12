@@ -4,7 +4,7 @@ pipeline{
         stage('getting git repo')
         {
             steps{
-                git branch: 'main', credentialsId: 'my-credentials', url: 'ttps://github.com/kartikeyametikoti/own-experiements.git'
+                git branch: 'main', credentialsId: 'my-credentials', url: 'https://github.com/kartikeyametikoti/own-experiements.git'
             }
         }
         stage('build and run')

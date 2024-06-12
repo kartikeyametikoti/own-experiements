@@ -10,7 +10,8 @@ pipeline{
         stage('build and run')
         {
             steps{
-                sh 'javac kartikeya.java'&& 'java kartikeya'
+                sh 'javac kartikeya.java'
+                sh 'java kartikeya'
             }
         }
        
